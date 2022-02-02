@@ -1,0 +1,141 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+.w-200 {
+  width: 200px;
+}
+
+// .form-control {
+//   margin: 5px 0;
+//   border-radius: 5px;
+//   border: 1px solid rgb(175, 172, 172);
+//   padding: 8px;
+//   input {
+//     height: 18px;
+//   }
+//   input[type='radio'],
+//   input[type='checkbox'] {
+//     height: 18px;
+//     margin: 10px 10px 10px 0;
+//   }
+//   textarea {
+//     height: 100px;
+//   }
+// }
+// button {
+//   height: 33px;
+//   min-width: 100px;
+//   margin: 0 20px 0 0;
+//   background-color: #fff;
+//   border: 1px solid rgb(175, 172, 172);
+//   border-radius: 3px;
+//   cursor: pointer;
+//   &.primary {
+//     background-color: rgb(34, 36, 201);
+//     color: #fff;
+//   }
+// }
+
+.setting-text-color {
+  .main {
+    div {
+      margin: 10px 0;
+    }
+    input {
+      &.red {
+        &::placeholder {
+          color: red;
+        }
+      }
+      &.blue {
+        &::placeholder {
+          color: blue;
+        }
+      }
+      &.green {
+        &::placeholder {
+          color: green;
+        }
+      }
+    }
+  }
+  .w-45 {
+    width: 45%;
+  }
+  .top {
+    display: flex;
+
+    .color-picker {
+      height: 50px;
+      border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      font-weight: 500;
+      margin-right: 10px;
+      span {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #000;
+        margin: 0 8px;
+        cursor: pointer;
+        &.red {
+          background-color: red;
+        }
+        &.blue {
+          background-color: blue;
+        }
+        &.green {
+          background-color: green;
+        }
+      }
+    }
+    .size-change {
+      height: 50px;
+      padding: 0 10px;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      span {
+        margin: 0 8px;
+        border: 1px solid #000;
+        border-radius: 4px;
+        padding: 5px;
+        background-color: aquamarine;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.form {
+  margin: 10px;
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    label {
+      width: 100%;
+      font-weight: bolder;
+      font-size: 16px;
+    }
+  }
+}
+
+.jobs-management {
+  margin: 10px;
+}
+
+.table-border {
+  border: 1px solid #000;
+}
